@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>مكتب أكس بوكس - PS4 GoldHEN</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>مكتب أكس بوكس - بيع وصيانة أجهزة الألعاب</h1>
+<hr>
+<img src="logo.jpg" width="640" height="360" style="border-radius: 14px;box-shadow: 0 0 30px #39ff14;margin-top: 10px;">
+<h1 id=msgs style="font-size: 30px;margin-top: 30px;">Detecting Firmware...</h1>
+<h1 style="font-size: 22px;">بغداد الشعب - سوق شلال &nbsp;|&nbsp; 0770 699 4593</h1>
+<a href="menu.html"><button class="btn" style="margin-top: 30px;"> Manual Menu </button></a>
+<script>
+var m = navigator.userAgent.match(/PlayStation 4[ /]([\d.]+)/i);
+if (m) {
+    msgs.innerHTML = "PS4 FW " + m[1] + " - Starting GoldHEN Automatically...";
+    setTimeout(function () { location.replace("g2all/index.html"); }, 2500);
+} else {
+    msgs.innerHTML = "افتح هذا الرابط من متصفح جهاز PS4";
+}
+</script>
+</body>
+</html>
