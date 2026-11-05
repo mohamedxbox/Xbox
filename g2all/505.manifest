@@ -1,11 +1,9 @@
-CACHE MANIFEST
-# xbox-office v1
+CACHE MANIFEST 
 
 CACHE: 
 ../img.jpg
-../logo.jpg
 ../style.css
-goldhen_2.4b18.12.bin
+goldhen_2.4b18.13.bin
 index.html
 505\exploit.js
 

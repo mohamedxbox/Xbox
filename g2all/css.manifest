@@ -1,11 +1,9 @@
 CACHE MANIFEST
-# xbox-office v1
 
 CACHE:
 ../img.jpg
-../logo.jpg
 ../style.css
-goldhen_2.4b18.12.bin
+goldhen_2.4b18.13.bin
 index.html
 css\lapse.js
 css\loader.js
